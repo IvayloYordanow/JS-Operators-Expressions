@@ -1,0 +1,18 @@
+
+var a = 111117555722; //change value for a differnt result
+
+var b = a.toString(10).split("").map(Number);// change integer a to an array of integers
+// The toString() method returns a string representing object.
+//The split() method splits a String object into an array of strings by separating the string into substrings.
+//The map() method creates a new array with the results of calling a provided function on every element in this array.
+// The Number JavaScript object is a wrapper object allowing you to work with numerical values.
+
+
+if (b[b.length-3] == 7) {// check the index of the intiger that is at 3-rd  position (right to left)
+  console.log("It is 7");
+}
+
+else {
+  console.log("It is  NOT 7");
+  
+}
