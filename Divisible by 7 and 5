@@ -1,0 +1,12 @@
+var a = 35;// change the value for a different result
+
+if (a % 5 === 0 && a % 7 === 0) {
+
+     console.log(a + " " + "can be divided (without remainder) by 7 and 5 in the same time.");
+
+}
+
+
+else {
+	console.log(a + " " + "can NOT be divided (without remainder) by 7 and 5 in the same time.");
+}
