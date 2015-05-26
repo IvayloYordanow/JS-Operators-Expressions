@@ -1,0 +1,25 @@
+        var radius = 3;
+        var x =8; //change value for a different result
+        var y =2; //change value for a different result
+
+
+        
+        function check () {
+        var withinCircle = ((x - 1) * (x - 1) + (y - 1) * (y- 1)) <= radius * radius;
+        var outsideRectangle = ((x < -1) || (x > 5) || (y > 1) || (y < -1));
+        var condition = withinCircle && outsideRectangle;
+
+        if (condition) {
+          
+          console.log("The point is within the circle and outside the rctangle");
+          
+        }
+          
+        else {
+          console.log("The condition is not true");
+        
+        }
+          
+       }
+
+check();
