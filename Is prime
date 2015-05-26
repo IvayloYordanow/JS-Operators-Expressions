@@ -1,0 +1,12 @@
+//If the number is prime the result will be true, if not, the result will be false
+
+function isPrime(x) {
+  for (n = 2; n<= Math.sqrt(x); n++) {
+        if (x % n === 0) return false;
+   }
+
+          return true;
+         
+     }              
+    
+console.log(isPrime(57)); //false
