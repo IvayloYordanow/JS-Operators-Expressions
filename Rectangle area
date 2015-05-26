@@ -1,0 +1,9 @@
+var width;
+var height;
+
+function recatangleArea(width,height) {
+
+	console.log(width*height);
+}
+
+recatangleArea(4,7);//change value for a different result
