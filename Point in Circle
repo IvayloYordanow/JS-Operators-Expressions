@@ -1,0 +1,16 @@
+var x = 1; //change value for a different result
+var y = 3; //change value for a different result
+
+var radius = 5;
+
+if (x*x + y*y <= radius*radius) {
+  
+  console.log("Point P with parameters" + " " + x + " " + "and" + " " + y + " " + "is in the circle");
+  
+}
+
+else {
+ console.log("Point P with parameters" + " " + x + " " + "and" + " "+ y + " " + "is  NOT in the circle");
+  
+  
+}
