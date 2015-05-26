@@ -1,0 +1,7 @@
+function area (a,b,h) {
+  
+  var c = ((a*b)*h)/2;
+  return c; 
+}
+
+console.log(area(5,2,2));
